@@ -8,7 +8,7 @@ class BasicDesign extends StatelessWidget {
     return Scaffold(
         body: Column(
           children: [
-            const Image(image: AssetImage('assets/images/landscape.jpeg')),
+            const Image(image: AssetImage('assets/landscape.jpeg')),
             const Title(),
             const Actions(),
             Container(

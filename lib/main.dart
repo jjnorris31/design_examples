@@ -1,4 +1,5 @@
 import 'package:design_examples/screens/basic_design.dart';
+import 'package:design_examples/screens/scroll_design.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp( const MyApp());
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Material App',
-        initialRoute: 'basic_design',
+        initialRoute: 'scroll_design',
         routes: {
-          'basic_design': (_) => const BasicDesign()
+          'scroll_design': (_) => const ScrollDesign(),
         }
     );
   }
